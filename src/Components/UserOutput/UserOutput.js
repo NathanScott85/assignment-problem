@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 
-class UserOutput extends Component {
-  render() {
+const UserOutput = (props)=>  {
+  
     return (
       <div className="UserOutput">
-        
-      </div>
+        <p > {props.userName} </p>
+        <p> This is a second user output</p> 
+       </div>
     );
   }
-}
 
 export default UserOutput;

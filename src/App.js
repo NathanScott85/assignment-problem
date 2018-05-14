@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import UserOutput from './Components/UserOutput/UserOutput';
 class App extends Component {
   render() {
     return (
@@ -17,6 +17,8 @@ class App extends Component {
           <li>Add two-way-binding to your input (in UserInput) to also display the starting username</li>
           <li>Add styling of your choice to your components/ elements in the components - both with inline styles and stylesheets</li>
         </ol>
+
+
       </div>
     );
   }

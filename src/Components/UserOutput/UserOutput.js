@@ -5,7 +5,7 @@ const UserOutput = (props)=>  {
   
     return (
       <div className="UserOutput">
-        <p > {props.userName} </p>
+        <p > Username: {props.userName} </p>
         <p> This is a second user output</p> 
        </div>
     );
